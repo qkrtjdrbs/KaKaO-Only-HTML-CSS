@@ -3,6 +3,7 @@
 }
 .user-component {
   justify-content: space-between;
+  margin-bottom: var(--horizontal-space);
 }
 .user-component,
 .user-component__column:first-child {
@@ -37,5 +38,12 @@
   font-weight: 400;
 }
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
 }
