@@ -4,6 +4,11 @@
 @import "status-bar.css";
 @import "login.css";
 @import "nav-bar.css";
+@import "screen-header.css";
+@import "friends.css";
+@import "user-component.css";
 body {
+  color: #2e363e;
   font-family: "Baloo Tamma 2", cursive;
+  padding-top: 20px;
 }
