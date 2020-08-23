@@ -25,3 +25,14 @@
   right: -5px;
   bottom: 20px;
 }
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+.screen-header__icons .fa-cog:hover {
+  animation: rotateCog 1s ease-in-out infinite;
+}

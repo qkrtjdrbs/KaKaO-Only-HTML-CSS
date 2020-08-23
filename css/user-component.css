@@ -47,3 +47,16 @@
   margin-bottom: 10px;
   display: block;
 }
+.user-component__text div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-component__text div div {
+  width: 15px;
+  height: 15px;
+  color: tomato;
+  border-radius: 7.5px;
+  border: 1px solid tomato;
+  margin-left: 5px;
+}
